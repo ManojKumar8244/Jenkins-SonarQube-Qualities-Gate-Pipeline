@@ -25,7 +25,7 @@ pipeline {
                 withSonarQubeEnv('SonarCloud') {
                     sh '''
                     mvn sonar:sonar \
-                    -Dsonar.projectKey=java-ci-demo \
+                    -Dsonar.projectKey=Jenkins-SonarQube-Qualities-Gate-Pipeline \
                     -Dsonar.organization=manojkumar8244
                     '''
                 }
