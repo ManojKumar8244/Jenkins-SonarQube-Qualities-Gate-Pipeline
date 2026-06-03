@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/ManojKumar8244/java-ci-demo.git'
+                url: 'https://github.com/ManojKumar8244/Jenkins-SonarQube-Qualities-Gate-Pipeline.git'
             }
         }
 
